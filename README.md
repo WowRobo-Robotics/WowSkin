@@ -1,2 +1,31 @@
 # WowSkin
-WowSkin: Open-source code for advanced magnetic sensor solutions, based on AnySkin and ReSkin. Hardware design is proprietary.
+
+WowSkin 是一款专为高级磁传感器应用设计的开源软件解决方案。本项目基于 [AnySkin](https://any-skin.github.io/) 和 [ReSkin](https://reskin.dev/) 的开源基础，加入了针对特定应用场景的改进和新功能。
+
+## 功能特点
+
+- **增强的磁传感器驱动**：提升了与 MLX90393 等传感器的兼容性和性能。
+- **实时可视化**：通过自定义可视化工具，轻松查看磁场数据。
+- **改进的算法**：提供更精确的 XYZ 磁场分析，并降低噪声。
+- **灵活的架构**：模块化代码结构，便于定制和扩展。
+
+## 硬件
+
+WowSkin 的硬件设计为 **专有**，未包含在此开源仓库中。如果您对 WowSkin 硬件感兴趣，请联系我们或访问我们的 [官方商店](https://item.taobao.com/item.htm?ft=t&id=863972140022)。
+
+### 支持的硬件
+
+WowSkin 旨在与我们专有的硬件无缝配合使用，包括：
+
+- 预校准的磁传感器阵列。
+- 高性能数据采集模块。
+- 即插即用的兼容连接器。
+
+如果您选择使用其他硬件，可能需要对代码进行一些修改。
+
+## 安装
+
+### 环境要求
+
+- Python 3.7 或更高版本
+- 所需 Python 库（请参考 `requirements.txt`）
