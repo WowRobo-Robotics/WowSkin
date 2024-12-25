@@ -1,6 +1,6 @@
-# WowSkin
+# WowSkin-M1
 
-WowSkin 是一款针对智能触觉皮肤设计的开源解决方案。本项目基于 [AnySkin](https://any-skin.github.io/) 和 [ReSkin](https://reskin.dev/) 的开源基础，加入了针对特定应用场景的改进和新功能。
+WowSkin-M1 是一款针对智能触觉皮肤设计的开源解决方案。本项目基于 [AnySkin](https://any-skin.github.io/) 和 [ReSkin](https://reskin.dev/) 的开源基础，加入了针对特定应用场景的改进和新功能。
 
 ## 功能特点
 
@@ -13,11 +13,11 @@ WowSkin 是一款针对智能触觉皮肤设计的开源解决方案。本项目
 
 ## 硬件
 
-WowSkin 的硬件设计为 **专有**，未包含在此开源仓库中。如果您对 WowSkin 硬件感兴趣，请联系我们或访问我们的 [官方商店](https://item.taobao.com/item.htm?ft=t&id=863972140022)。
+WowSkin-M1的硬件设计为 **专有**，未包含在此开源仓库中。如果您对 WowSkin-M1 硬件感兴趣，请联系我们或访问我们的 [官方商店](https://item.taobao.com/item.htm?ft=t&id=863972140022)。
 
 ### 支持的硬件
 
-WowSkin 旨在与我们专有的硬件无缝配合使用，包括：
+WowSkin-M1 旨在与我们专有的硬件无缝配合使用，包括：
 
 - 预校准的磁传感器阵列。
 - 高性能数据采集模块。
