@@ -64,8 +64,8 @@ WowSkin 旨在与我们专有的硬件无缝配合使用，包括：
 ## **快速使用指南**
 
 1. **硬件连接**  
- <img src="./images/001.png" alt="硬件连接示意图" width="600px">
-   <img src="./images/002.png" alt="硬件连接示意图" width="600px">
+ <img src="./images/001.png" alt="硬件连接示意图" width="900px">
+   <img src="./images/002.png" alt="硬件连接示意图" width="900px">
 
 2. **检测 COM 端口**  
    - 确认您的微控制器连接到的设备路径（`<port>`），具体步骤如下：
