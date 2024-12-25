@@ -23,7 +23,7 @@ setup(
     install_requires=[
         "numpy>=1.21.3",
         "pyserial>=3.5",
-        "pygame>=2.6.0"
+        "pygame>=2.6.1"
     ],  # 项目依赖
     python_requires=">=3.8",  # 最低 Python 版本要求
     url="https://github.com/WowRobo-Robotics/WowSkin.git",
