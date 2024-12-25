@@ -6,7 +6,7 @@ from multiprocessing import Process, Event, Pipe, Value, Array
 import numpy as np
 import serial
 
-from .sensor import AnySkinBase, AnySkinDummy
+from sensor import AnySkinBase, AnySkinDummy
 
 
 class AnySkinProcess(Process):
