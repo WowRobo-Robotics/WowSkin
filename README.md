@@ -9,6 +9,8 @@ WowSkin 是一款针对智能触觉皮肤设计的开源解决方案。本项目
 - **改进的算法**：提供更精确的 XYZ 磁场分析，并降低噪声。
 - **灵活的架构**：模块化代码结构，便于定制和扩展。
 
+---
+
 ## 硬件
 
 WowSkin 的硬件设计为 **专有**，未包含在此开源仓库中。如果您对 WowSkin 硬件感兴趣，请联系我们或访问我们的 [官方商店](https://item.taobao.com/item.htm?ft=t&id=863972140022)。
@@ -23,22 +25,36 @@ WowSkin 旨在与我们专有的硬件无缝配合使用，包括：
 
 如果您选择使用其他硬件，可能需要对代码进行一些修改。
 
-## 安装
+### 软件与硬件的开源声明
 
-### 环境要求
+本项目的 **软件代码** 完全开源，遵循 [MIT License](LICENSE) 许可协议，您可以自由使用、修改和分发。
+
+硬件部分的 **单片机源代码** 或 **开发板固件代码** 会在购买 WowSkin 硬件后免费赠送。这种方式确保用户可以根据自己的需求对硬件进行进一步开发，同时保护我们在硬件设计和制造上的投入。
+
+---
+
+## 环境要求
 
 - Python 3.8 或更高版本
 
+---
 
 ## **安装方法**
 
-1. **克隆此仓库：**
+1. **克隆此仓库**  
+   在终端中运行以下命令克隆项目：
    ```bash
-   git clone https://github.com/WowRobo-Robotics/WowSkin.git --recursive
+   git clone https://github.com/WowRobo-Robotics/WowSkin.git
    ```
 
-3. **安装项目：**
-   
+2. **进入项目目录**  
+   在克隆完成后，进入项目目录：
+   ```bash
+   cd WowSkin
+   ```
+
+3. **安装依赖**  
+   使用 `pip` 安装项目依赖：
    ```bash
    pip install -e .
    ```
@@ -47,24 +63,36 @@ WowSkin 旨在与我们专有的硬件无缝配合使用，包括：
 
 ## **快速使用指南**
 
-1. **硬件连接**
-   - 使用 QWIIC 电缆将磁力计电路板与微控制器连接。
-   - 将电路板插入设备槽位，然后将皮肤覆盖在 3D 打印的顶端。
+1. **硬件连接**  
+ <img src="./images/001.png" alt="硬件连接示意图" width="600px">
+   <img src="./images/002.png" alt="硬件连接示意图" width="600px">
 
-2. **检测 COM 端口**
+2. **检测 COM 端口**  
    - 确认您的微控制器连接到的设备路径（`<port>`），具体步骤如下：
-     - **Linux**: `ls /dev/ | grep -e ACM -e USB`
-     - **MacOS**: `ls /dev/ | grep cu.usb`
-     - **Windows**: 打开设备管理器并查看 "端口(COM & LPT)"。
+     - **Linux**: `ls /dev/ | grep -e ACM -e USB`（一般为 `/dev/ttyACM0` 或 `/dev/ttyUSB0`）。
+     - **MacOS**: `ls /dev/ | grep cu.usb`（一般为 `cu.usbmodem*`）。
+     - **Windows**: 打开设备管理器并查看 "端口(COM & LPT)"，如 `COM3`。
 
-3. **运行可视化工具**
+3. **运行可视化工具**  
    使用以下命令运行可视化工具：
    ```bash
    python wowskin_viz.py -p <port>
    ```
+   替换 `<port>` 为您在上一步找到的实际端口号。
 
-4. **重新校准零点**
-   由于传感器测量可能会随时间漂移，您可以在可视化过程中按下 `B` 键重新校准。
+   ### 实际命令示例
+   假设您在 Windows 系统上，设备连接到 `COM3`，您可以运行以下命令：
+   ```bash
+   python wowskin_viz.py -p COM3
+   ```
+
+   或者在 Linux 系统上，设备连接到 `/dev/ttyACM0`，您可以运行以下命令：
+   ```bash
+   python wowskin_viz.py -p /dev/ttyACM0
+   ```
+
+4. **重新校准零点**  
+   在可视化窗口中点击 **RESET** 按钮以重新校准零点。这种方式更直观，不受窗口激活状态限制。
 
 ---
 
@@ -77,11 +105,15 @@ WowSkin 旨在与我们专有的硬件无缝配合使用，包括：
 
 ---
 
-## **Credits**
+## **联系我们**
 
-WowSkin 的开发基于以下开源项目：
-- [AnySkin](https://any-skin.github.io)：提供了核心的磁场传感技术和软件架构。
-- [ReSkin](https://reskin.dev)：提供了模块化传感器集成和触觉反馈的设计理念。
+如果您有任何问题或需要帮助，可以通过以下方式联系我们：
+
+- **QQ群**：123456789
+- **微信**：WowSkinSupport
+
+欢迎加入我们的社区，与更多开发者交流！
+
 
 ---
 
