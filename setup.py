@@ -3,14 +3,15 @@ from setuptools import setup, find_packages
 
 
 def read(fname):
-    return open(os.path.join(os.path.dirname(__file__), fname)).read()
+    with open(os.path.join(os.path.dirname(__file__), fname), encoding="utf-8") as f:
+        return f.read()
 
 
 setup(
     name="WowSkin",  # 项目名称
     version="1.0.0",  # 初始版本号
-    author="WowRobo",  # 使用更广义的称谓，避免个人署名
-    author_email="leo.xiao@wowrobo.com",  # 可以留一个公共邮箱或者省略
+    author="WowRobo",
+    author_email="leo.xiao@wowrobo.com",
     description="Python library for interfacing with a WowSkin intelligent magnetic sensing circuit, based on AnySkin and ReSkin.",
     long_description=read("README.md"),  # 使用 README.md 作为详细描述
     long_description_content_type="text/markdown",  # 确保 README 是 Markdown 格式
