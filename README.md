@@ -13,7 +13,7 @@ WowSkin 是一款针对智能触觉皮肤设计的开源解决方案。本项目
 
 ## 硬件
 
-WowSkin 的硬件设计为 **专有**，未包含在此开源仓库中。如果您对 WowSkin-M1 硬件感兴趣，请联系我们或访问我们的 [官方商店](https://item.taobao.com/item.htm?ft=t&id=863972140022)。
+WowSkin 的硬件设计为 **专有**，未包含在此开源仓库中。如果您对 WowSkin 硬件感兴趣，请联系我们或访问我们的 [官方商店](https://item.taobao.com/item.htm?ft=t&id=863972140022)。
 
 ### 支持的硬件
 
