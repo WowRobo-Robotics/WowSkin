@@ -1,3 +1,4 @@
+
 # WowSkin
 
 WowSkin 是一款针对智能触觉皮肤设计的开源解决方案。本项目基于 [AnySkin](https://any-skin.github.io/) 和 [ReSkin](https://reskin.dev/) 的开源基础，加入了针对特定应用场景的改进和新功能。
@@ -64,8 +65,8 @@ WowSkin 旨在与我们专有的硬件无缝配合使用，包括：
 ## **快速使用指南**
 
 1. **硬件连接**  
- <img src="./images/001.png" alt="硬件连接示意图" width="900px">
-   <img src="./images/002.png" alt="硬件连接示意图" width="900px">
+   <img src="./images/001.png" alt="硬件连接示意图1" width="900px">
+   <img src="./images/002.png" alt="硬件连接示意图2" width="900px">
 
 2. **检测 COM 端口**  
    - 确认您的微控制器连接到的设备路径（`<port>`），具体步骤如下：
@@ -80,22 +81,10 @@ WowSkin 旨在与我们专有的硬件无缝配合使用，包括：
    ```
    替换 `<port>` 为您在上一步找到的实际端口号。
 
-   ### 实际命令示例
-   假设您在 Windows 系统上，设备连接到 `COM3`，您可以运行以下命令：
-   ```bash
-   python wowskin_viz.py -p COM3
-   ```
-
-   或者在 Linux 系统上，设备连接到 `/dev/ttyACM0`，您可以运行以下命令：
-   ```bash
-   python wowskin_viz.py -p /dev/ttyACM0
-   ```
-
 4. **重新校准零点**  
    在可视化窗口中点击 **Reset** 按钮以重新校准零点。这种方式更直观，不受窗口激活状态限制。
 
-   <img src="./images/003.png" alt="硬件连接示意图" width="400px">
-
+   <img src="./images/003.png" alt="软件界面" width="400px">
 
 ---
 
@@ -117,7 +106,6 @@ WowSkin 旨在与我们专有的硬件无缝配合使用，包括：
 
 欢迎加入我们的社区，与更多开发者交流！
 
-
 ---
 
 ## **许可证**
@@ -125,3 +113,119 @@ WowSkin 旨在与我们专有的硬件无缝配合使用，包括：
 WowSkin 使用 [MIT License](LICENSE) 许可证开源软件部分。  
 硬件设计为专有内容，未包含在开源范围内。如需了解更多或购买硬件，请访问我们的 [官方商店](https://item.taobao.com/item.htm?ft=t&id=863972140022)。
 
+
+---
+
+# WowSkin (English Version)
+
+WowSkin is an open-source solution designed for intelligent tactile skins. Based on [AnySkin](https://any-skin.github.io/) and [ReSkin](https://reskin.dev/), it includes targeted improvements and new features for specific application scenarios.
+
+## Features
+
+- **Enhanced Magnetic Sensor Driver**: Improved compatibility and performance with sensors such as MLX90393.
+- **Real-Time Visualization**: Easily visualize magnetic field data using customized visualization tools.
+- **Improved Algorithms**: More accurate XYZ magnetic field analysis with reduced noise.
+- **Flexible Architecture**: Modular code structure for easy customization and extension.
+
+---
+
+## Hardware
+
+The hardware design of WowSkin is **proprietary** and is not included in this open-source repository. If you are interested in WowSkin hardware, please contact us or visit our [official store](https://item.taobao.com/item.htm?ft=t&id=863972140022).
+
+### Supported Hardware
+
+WowSkin is designed to work seamlessly with our proprietary hardware, including:
+
+- Pre-calibrated magnetic sensor arrays.
+- High-performance data acquisition modules.
+- Plug-and-play compatible connectors.
+
+If you choose to use other hardware, you may need to modify the code accordingly.
+
+### Open-Source Software and Hardware Declaration
+
+The **software code** of this project is fully open-source and follows the [MIT License](LICENSE), allowing free use, modification, and distribution.
+
+The **firmware code** for the development board will be provided free of charge upon purchasing WowSkin hardware. This ensures that users can further develop the hardware according to their needs while protecting our investment in hardware design and manufacturing.
+
+---
+
+## Requirements
+
+- Python 3.8 or higher
+
+---
+
+## **Installation**
+
+1. **Clone the repository**  
+   Run the following command in the terminal to clone the project:
+   ```bash
+   git clone https://github.com/WowRobo-Robotics/WowSkin.git
+   ```
+
+2. **Enter the project directory**  
+   After cloning, navigate into the project directory:
+   ```bash
+   cd WowSkin
+   ```
+
+3. **Install dependencies**  
+   Use `pip` to install the project dependencies:
+   ```bash
+   pip install -e .
+   ```
+
+---
+
+## **Quick Start Guide**
+
+1. **Hardware Connection**  
+   <img src="./images/001.png" alt="Hardware connection diagram 1" width="900px">
+   <img src="./images/002.png" alt="Hardware connection diagram 2" width="900px">
+
+2. **Check COM Port**  
+   - Confirm the device path (`<port>`) of your microcontroller:
+     - **Linux**: `ls /dev/ | grep -e ACM -e USB` (usually `/dev/ttyACM0` or `/dev/ttyUSB0`).
+     - **MacOS**: `ls /dev/ | grep cu.usb` (usually `cu.usbmodem*`).
+     - **Windows**: Open Device Manager and check "Ports (COM & LPT)", e.g., `COM3`.
+
+3. **Run the Visualization Tool**  
+   Use the following command to run the visualization tool:
+   ```bash
+   python wowskin_viz.py -p <port>
+   ```
+   Replace `<port>` with the actual port number from the previous step.
+
+4. **Recalibrate Zero Point**  
+   Click the **Reset** button in the visualization window to recalibrate the zero point. This method is more intuitive and not restricted by window focus.
+
+   <img src="./images/003.png" alt="Software interface" width="400px">
+
+---
+
+## **Highlights**
+
+- **Real-Time Magnetic Field Sensing**: High-precision XYZ magnetic field data collection.
+- **Modular Design**: Supports extension and customization for various use cases.
+- **Cross-Platform Support**: Compatible with Windows, Linux, and MacOS.
+- **Visualization Tool**: Built-in real-time visualization for quick debugging and demonstrations.
+
+---
+
+## **Contact Us**
+
+If you have any questions or need assistance, please contact us via:
+
+- **Email**: leo.xiao@wowrobo.com
+- **WeChat**: xiaonian52 (please mention "WowSkin Inquiry" when adding)
+
+Join our community and connect with other developers!
+
+---
+
+## **License**
+
+WowSkin is released under the [MIT License](LICENSE) for the open-source software portion.  
+The hardware design is proprietary and not included in the open-source scope. For more information or to purchase hardware, please visit our [official store](https://item.taobao.com/item.htm?ft=t&id=863972140022).
