@@ -1,5 +1,11 @@
-
 # WowSkin
+
+[中文](#中文版) | [English](#english-version)
+
+---
+
+## 中文版
+
 
 WowSkin 是一款针对智能触觉皮肤设计的开源解决方案。本项目基于 [AnySkin](https://any-skin.github.io/) 和 [ReSkin](https://reskin.dev/) 的开源基础，加入了针对特定应用场景的改进和新功能。
 
@@ -116,7 +122,8 @@ WowSkin 使用 [MIT License](LICENSE) 许可证开源软件部分。
 
 ---
 
-# WowSkin (English Version)
+
+## English Version
 
 WowSkin is an open-source solution designed for intelligent tactile skins. Based on [AnySkin](https://any-skin.github.io/) and [ReSkin](https://reskin.dev/), it includes targeted improvements and new features for specific application scenarios.
 
