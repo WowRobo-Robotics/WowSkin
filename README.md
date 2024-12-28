@@ -190,8 +190,8 @@ The **firmware code** for the development board will be provided free of charge 
 ## **Quick Start Guide**
 
 1. **Hardware Connection**  
-   <img src="./images/01_en.png" alt="Hardware connection diagram 1" width="900px">
-   <img src="./images/02_en.png" alt="Hardware connection diagram 2" width="900px">
+   <img src="./images/01_en.PNG" alt="Hardware connection diagram 1" width="900px">
+   <img src="./images/02_en.PNG" alt="Hardware connection diagram 2" width="900px">
 
 2. **Check COM Port**  
    - Confirm the device path (`<port>`) of your microcontroller:
