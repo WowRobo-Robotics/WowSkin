@@ -88,6 +88,17 @@ WowSkin 旨在与我们专有的硬件无缝配合使用，包括：
    ```
    替换 `<port>` 为您在上一步找到的实际端口号。
 
+   #### 示例：
+   - **Windows 示例**：如果您的设备连接到 `COM3`，运行以下命令：
+     ```bash
+     python wowskin_viz.py -p COM3
+     ```
+
+   - **Linux 示例**：如果设备路径为 `/dev/ttyACM0`，运行以下命令：
+     ```bash
+     python wowskin_viz.py -p /dev/ttyACM0
+     ```
+
 4. **重新校准零点**  
    在可视化窗口中点击 **Reset** 按钮以重新校准零点。这种方式更直观，不受窗口激活状态限制。
 
@@ -205,6 +216,17 @@ The **firmware code** for the development board will be provided free of charge 
    python wowskin_viz.py -p <port>
    ```
    Replace `<port>` with the actual port number from the previous step.
+
+   #### Examples:
+   - **Windows Example**: If your device is connected to `COM3`, run the following command:
+     ```bash
+     python wowskin_viz.py -p COM3
+     ```
+
+   - **Linux Example**: If the device path is `/dev/ttyACM0`, run the following command:
+     ```bash
+     python wowskin_viz.py -p /dev/ttyACM0
+     ```
 
 4. **Recalibrate Zero Point**  
    Click the **Reset** button in the visualization window to recalibrate the zero point. This method is more intuitive and not restricted by window focus.
