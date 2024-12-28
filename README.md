@@ -71,8 +71,9 @@ WowSkin 旨在与我们专有的硬件无缝配合使用，包括：
 ## **快速使用指南**
 
 1. **硬件连接**  
-   <img src="./images/001.png" alt="硬件连接示意图1" width="900px">
-   <img src="./images/002.png" alt="硬件连接示意图2" width="900px">
+   <img src="./images/01_cn.png" alt="硬件连接示意图1" width="900px">
+   <img src="./images/02_cn.png" alt="硬件连接示意图2" width="900px">
+
 
 2. **检测 COM 端口**  
    - 确认您的微控制器连接到的设备路径（`<port>`），具体步骤如下：
@@ -100,7 +101,7 @@ WowSkin 旨在与我们专有的硬件无缝配合使用，包括：
 - **模块化设计**：支持多种使用场景的扩展和定制。
 - **跨平台支持**：兼容 Windows、Linux 和 MacOS 操作系统。
 - **可视化工具**：内置实时可视化功能，便于快速调试和演示。
-
+   <img src="./images/03_cn.png" alt="易于适配" width="900px">
 ---
 
 ## **联系我们**
@@ -189,8 +190,8 @@ The **firmware code** for the development board will be provided free of charge 
 ## **Quick Start Guide**
 
 1. **Hardware Connection**  
-   <img src="./images/001.png" alt="Hardware connection diagram 1" width="900px">
-   <img src="./images/002.png" alt="Hardware connection diagram 2" width="900px">
+   <img src="./images/01_en.png" alt="Hardware connection diagram 1" width="900px">
+   <img src="./images/02_en.png" alt="Hardware connection diagram 2" width="900px">
 
 2. **Check COM Port**  
    - Confirm the device path (`<port>`) of your microcontroller:
@@ -218,7 +219,7 @@ The **firmware code** for the development board will be provided free of charge 
 - **Modular Design**: Supports extension and customization for various use cases.
 - **Cross-Platform Support**: Compatible with Windows, Linux, and MacOS.
 - **Visualization Tool**: Built-in real-time visualization for quick debugging and demonstrations.
-
+   <img src="./images/03_en.png" alt="Easy to Fit" width="900px">
 ---
 
 ## **Contact Us**
