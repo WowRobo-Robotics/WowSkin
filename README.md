@@ -150,7 +150,7 @@ WowSkin is an open-source solution designed for intelligent tactile skins. Based
 
 ## Hardware
 
-The hardware design of WowSkin is **proprietary** and is not included in this open-source repository. If you are interested in WowSkin hardware, please contact us or visit our [official store](https://item.taobao.com/item.htm?ft=t&id=863972140022).
+The hardware design of WowSkin is **proprietary** and is not included in this open-source repository. If you are interested in WowSkin hardware, please contact us or visit our [official store](https://shop.wowrobo.com/products/enhanced-anyskin-premium-crafted-editionwowskin).
 
 ### Supported Hardware
 
@@ -258,4 +258,4 @@ Join our community and connect with other developers!
 ## **License**
 
 WowSkin is released under the [MIT License](LICENSE) for the open-source software portion.  
-The hardware design is proprietary and not included in the open-source scope. For more information or to purchase hardware, please visit our [official store](https://item.taobao.com/item.htm?ft=t&id=863972140022).
+The hardware design is proprietary and not included in the open-source scope. For more information or to purchase hardware, please visit our [official store](https://shop.wowrobo.com/products/enhanced-anyskin-premium-crafted-editionwowskin).
