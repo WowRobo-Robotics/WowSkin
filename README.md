@@ -11,7 +11,7 @@ WowSkin 是一款针对智能触觉皮肤设计的开源解决方案。本项目
 
 ## 功能特点
 
-- **增强的磁传感器驱动**：提升了与 MLX90393 等传感器的兼容性和性能。
+- **增强的磁传感器驱动**：提升了与传感器的兼容性和性能。
 - **实时可视化**：通过自定义可视化工具，轻松查看磁场数据。
 - **改进的算法**：提供更精确的 XYZ 磁场分析，并降低噪声。
 - **灵活的架构**：模块化代码结构，便于定制和扩展。
@@ -141,7 +141,7 @@ WowSkin is an open-source solution designed for intelligent tactile skins. Based
 
 ## Features
 
-- **Enhanced Magnetic Sensor Driver**: Improved compatibility and performance with sensors such as MLX90393.
+- **Enhanced Magnetic Sensor Driver**: Improved compatibility and performance with sensors.
 - **Real-Time Visualization**: Easily visualize magnetic field data using customized visualization tools.
 - **Improved Algorithms**: More accurate XYZ magnetic field analysis with reduced noise.
 - **Flexible Architecture**: Modular code structure for easy customization and extension.
