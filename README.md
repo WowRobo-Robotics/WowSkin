@@ -42,11 +42,11 @@ If you are interested in WowSkin hardware, please contact us or visit our offici
 
 3. **Create and activate a virtual environment (recommended)**
 
-   * **Windows**:
+   * **Windows(CMD recommended)**:
 
      ```bash
      python -m venv .venv
-     .venv\Scripts\activate
+     .venv\Scripts\activate.bat
      ```
    * **macOS / Linux**:
 
@@ -157,10 +157,9 @@ WowSkin 硬件基于 [AnySkin](https://github.com/raunaqbhirangi/anyskin) 项目
 
 3. **创建并启用虚拟环境 (推荐)**
 
-   * **Windows(CMD recommended)**:
+   * **Windows(建议使用 CMD 命令行)**:
 
      ```bash
-     cmd
      python -m venv .venv
      .venv\Scripts\activate.bat
      ```
