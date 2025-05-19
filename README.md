@@ -1,6 +1,6 @@
 # WowSkin
 
- | [English](#english-version) | [中文](#中文版)
+ [English](#english-version) | [中文](#中文版)
 
 ---
 
@@ -108,6 +108,7 @@ If you are interested in WowSkin hardware, please contact us or visit our offici
 If you have any questions or need assistance, feel free to reach out:
 
 * **WeChat**: xiaonian52 (please mention "WowSkin inquiry")
+* **Discord**: [Join our community](https://discord.gg/dhTGTvJQC4)
 
 ---
 
