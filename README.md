@@ -9,36 +9,15 @@
 > ⚠️ 本项目基于 [AnySkin](https://github.com/raunaqbhirangi/anyskin) 项目，仅增加了一个图形化 Reset 按钮。核心算法全部来自原始 AnySkin 项目，推荐用户根据实际需求优先选择使用官方版本。
 
 
-## 功能特点
-
-- **增强的磁传感器驱动**：提升了与磁传感器的兼容性和性能。
-- **实时可视化**：通过自定义可视化工具，轻松查看磁场数据。
-- **改进的算法**：提供更精确的 XYZ 磁场分析，并降低噪声。
-- **灵活的架构**：模块化代码结构，便于定制和扩展。
-
----
-
 ## 硬件
 
-WowSkin 的硬件设计为 **专有**，未包含在此开源仓库中。如果您对 WowSkin 硬件感兴趣，请联系我们或访问我们的 [官方商店](https://item.taobao.com/item.htm?ft=t&id=863972140022)。
+WowSkin 硬件基于 [AnySkin](https://github.com/raunaqbhirangi/anyskin) 项目的磁性感知方案，进行了批量化生产，适用于教学演示与研究场景。
 
-### 支持的硬件
+> 如果您希望了解此类磁性感知硬件的设计原理与背景，请参考原作者发布的 [AnySkin 项目主页](https://any-skin.github.io/)。
 
-WowSkin 旨在与我们专有的硬件无缝配合使用，包括：
-
-- 预校准的磁传感器阵列。
-- 高性能数据采集模块。
-- 即插即用的兼容连接器。
-
-如果您选择使用其他硬件，可能需要对代码进行一些修改。
-
-### 软件与硬件的开源声明
-
-本项目的 **软件代码** 完全开源，遵循 [MIT License](LICENSE) 许可协议，您可以自由使用、修改和分发。
-
-硬件部分的 **开发板固件代码** 会在购买 WowSkin 硬件后免费赠送。这种方式确保用户可以根据自己的需求对硬件进行进一步开发，同时保护我们在硬件设计和制造上的投入。
-
----
+如果您对 WowSkin 硬件感兴趣，请联系我们或访问我们的官方商店。
+📍 [淘宝官方店铺（中文版）](https://item.taobao.com/item.htm?ft=t&id=863972140022)  
+📍 [官方商店（海外版）](https://shop.wowrobo.com/products/enhanced-anyskin-premium-crafted-editionwowskin)
 
 ## 环境要求
 
@@ -60,11 +39,27 @@ WowSkin 旨在与我们专有的硬件无缝配合使用，包括：
    cd WowSkin
    ```
 
-3. **安装依赖**  
-   使用 `pip` 安装项目依赖：
+3. **创建并启用虚拟环境 (推荐)**
+
+   * **Windows**:
+
+     ```bash
+     python -m venv .venv
+     .venv\Scripts\activate
+     ```
+   * **macOS / Linux**:
+
+     ```bash
+     python3 -m venv .venv
+     source .venv/bin/activate
+     ```
+
+4. **安装依赖**
+
    ```bash
-   pip install -e .
+   pip install -r requirements.txt
    ```
+
 
 ---
 
