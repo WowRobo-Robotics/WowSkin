@@ -160,6 +160,7 @@ WowSkin 硬件基于 [AnySkin](https://github.com/raunaqbhirangi/anyskin) 项目
    * **Windows(CMD recommended)**:
 
      ```bash
+     cmd
      python -m venv .venv
      .venv\Scripts\activate.bat
      ```
