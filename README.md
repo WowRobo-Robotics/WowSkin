@@ -157,10 +157,10 @@ WowSkin 硬件基于 [AnySkin](https://github.com/raunaqbhirangi/anyskin) 项目
 
 3. **创建并启用虚拟环境 (推荐)**
 
-* **Windows (CMD recommended)**:
-  ```bash
-  python -m venv .venv
-  .venv\Scripts\activate.bat
+   * **Windows (CMD recommended)**:
+     ```bash
+    python -m venv .venv
+    .venv\Scripts\activate.bat
      ```
    * **macOS / Linux**:
 
