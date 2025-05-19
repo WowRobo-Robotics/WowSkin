@@ -9,8 +9,7 @@ os.environ["PYGAME_HIDE_SUPPORT_PROMPT"] = "1"
 import sys
 import pygame
 from datetime import datetime
-#from anyskin import AnySkinProcess
-from sensor_proc import AnySkinProcess
+from anyskin import AnySkinProcess
 import argparse
 
 

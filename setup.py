@@ -12,7 +12,7 @@ setup(
     version="1.0.0",  # 初始版本号
     author="WowRobo",
     author_email="leo.xiao@wowrobo.com",
-    description="Python library for interfacing with a WowSkin intelligent magnetic sensing circuit, based on AnySkin and ReSkin.",
+    description="GUI visualizer for the WowSkin magnetic sensor, built on top of the AnySkin framework.",
     long_description=read("README.md"),  # 使用 README.md 作为详细描述
     long_description_content_type="text/markdown",  # 确保 README 是 Markdown 格式
     packages=find_packages(),
