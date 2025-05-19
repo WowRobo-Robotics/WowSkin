@@ -16,6 +16,7 @@ WowSkin 硬件基于 [AnySkin](https://github.com/raunaqbhirangi/anyskin) 项目
 > 如果您希望了解此类磁性感知硬件的设计原理与背景，请参考原作者发布的 [AnySkin 项目主页](https://any-skin.github.io/)。
 
 如果您对 WowSkin 硬件感兴趣，请联系我们或访问我们的官方商店。
+
 📍 [淘宝官方店铺（中文版）](https://item.taobao.com/item.htm?ft=t&id=863972140022)  
 📍 [官方商店（海外版）](https://shop.wowrobo.com/products/enhanced-anyskin-premium-crafted-editionwowskin)
 
